@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class GameplayTypeSelect : Select
 {
-    public override string Content { get; } = "CollisionType";
+    public override string Content { get; } = "GameplayType";
     public override string StartToggleName { get; } = "Collision";
 
     protected override void CreateItems()
